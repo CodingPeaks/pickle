@@ -76,6 +76,8 @@
     width: 100%;
     height: 100%;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .Clock-hour-selector, .Clock-minute-selector {
@@ -118,4 +120,5 @@
     align-items: center;
     font-size: 8em;
     color: #3f3f3f;
+    cursor: row-resize;
 }
