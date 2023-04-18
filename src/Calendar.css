@@ -63,6 +63,17 @@
 
 .Calendar-clock-ctrl {
     position: absolute;
+    right: 40px;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Calendar-confirm-ctrl {
+    position: absolute;
     right: 0;
     width: 40px;
     height: 40px;
@@ -70,6 +81,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.selected-day{
+    background-color: #c5dadd;
+    border: 2px solid rgb(151 186 197) !important;
 }
 
 .Clock-selector {
